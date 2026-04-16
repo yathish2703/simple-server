@@ -2,7 +2,7 @@
 set -e
 
 APP_DIR="$(cd "$(dirname "$0")" && pwd)"
-PORT=${PORT:-5000}
+PORT=${PORT:-80}
 
 echo "==> Updating package list..."
 sudo apt-get update -y
